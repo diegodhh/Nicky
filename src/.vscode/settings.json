@@ -1,0 +1,62 @@
+{
+  "search.exclude": {
+    // disable built-in rule
+    "**/node_modules": false,
+
+    // only exclude root node_modules
+    "node_modules": true,
+
+    ".vscode/**": true,
+
+    "build": true,
+
+    "packages/*/build": true,
+
+    "packages/*/dist": true,
+
+    "packages/*/node_modules": true,
+
+    "packages/*/styleguide/build": true
+  },
+  "files.watcherExclude": {
+    // disable built-in rule
+    "**/node_modules/**": false,
+
+    // only exclude root node_modules
+    "node_modules/**": true,
+
+    "build": true,
+
+    "packages/*/build": true,
+
+    "packages/*/dist": true,
+
+    "packages/*/node_modules": true,
+
+    "packages/*/styleguide/build": true
+  },
+
+  // Disable standard
+  "standard.enable": false,
+
+  // Enable eslint
+  "eslint.enable": true,
+
+  // Options to make prettier prettier
+  // "prettier.semi": false,
+  // "prettier.singleQuote": true,
+  // "prettier.jsxSingleQuote": true,
+  // "prettier.useTabs": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.printWidth": 80,
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Disable editor lint, use eslint
+  "javascript.validate.enable": false,
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["boleto"]
+}
